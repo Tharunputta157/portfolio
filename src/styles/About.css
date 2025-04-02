@@ -1,0 +1,23 @@
+.about{
+    background-color: rgb(253, 252, 251);
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.about h1{
+    text-align: center;
+    font-weight: 600;
+}
+.about p{
+    font-size: 20px;
+}
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about a{
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 7px;
+    color: rgb(52, 52, 52);
+}

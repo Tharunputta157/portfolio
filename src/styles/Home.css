@@ -1,0 +1,20 @@
+.home{
+
+    text-align: center;
+}
+.home h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.home p{
+    font-size: 20px;
+
+}
+.home img{
+  width: 400px;
+  min-width:200px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}

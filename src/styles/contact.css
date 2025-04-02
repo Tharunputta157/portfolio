@@ -1,0 +1,22 @@
+.contact{
+    text-align: center;
+    background-color: rgb(230, 228, 225);
+    padding: 10px;
+}
+.contact a{
+    font-size: 40px ;
+    padding-left: 20px;
+
+}
+.contact h1{
+    font-weight:500 ;
+}
+.contact p{
+    font-size: 20px;
+}
+.contact .linkedin{
+    color: blue;
+}
+.contact .email{
+    color: red;
+}
