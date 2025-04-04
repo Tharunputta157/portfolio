@@ -21,12 +21,14 @@
 
 @media (max-width: 768px) {
     .profile-img {
-      max-width: 150px;        /* Reduce the size of the profile picture on mobile */
+      max-width: 150px;
+      height:150px        /* Reduce the size of the profile picture on mobile */
     }
   }
   
   @media (max-width: 480px) {
     .profile-img {
-      max-width: 100px;        /* Further reduce the size on very small screens */
+      max-width: 100px; 
+      height:100       /* Further reduce the size on very small screens */
     }
   }
