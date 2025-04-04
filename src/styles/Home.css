@@ -12,9 +12,21 @@
 
 }
 .home img{
-  width: 400px;
-  min-width:150px;
+  width: 100%;
+  max-width: 400px;
   height: 400px;
   object-fit: cover;
   border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+    .profile-img {
+      max-width: 150px;        /* Reduce the size of the profile picture on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-img {
+      max-width: 100px;        /* Further reduce the size on very small screens */
+    }
+  }
