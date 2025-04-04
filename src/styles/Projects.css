@@ -1,8 +1,8 @@
 .projects{
-    /* margin-bottom: 20px; */
-    padding:10px;
+
+    padding:0px;
     padding-bottom: 30px;
-    /* background-color: rgb(241, 237, 237) */
+
 }
 .cards-container{
     display: flex;
@@ -11,35 +11,54 @@
     gap:20px
 }
 .cards{
-    min-width:250px;
-    max-width: 350px;
+    min-width: 300px;
+    flex-basis: 400px;
+    max-width: 450px;
     background-color: white;
     text-align: center;
-    border: 1px solid #cfcccc;
+    border: 1px solid ;
     border-radius: 15px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    width: 100%;
+    flex-grow: 1;
 
 }
+
+.cards:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 .cards h2{
     margin-bottom: 8px;
     font-weight: 500;
+
 }
 .cards p{
     font-size: 18px;
     margin-bottom: 8px;
+    padding: 5px;
 
 }
 .cards img{
-    min-width:250px;
-    max-width: 350px;
+    display: block;
+    border: none;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
 }
 .tech-stack{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-bottom: 8px;
+    padding: 5px;
+    gap:8px;
 }
 .tech-stack h4{
     background-color: rgb(211, 243, 241);
@@ -48,7 +67,6 @@
 }
 .cards a{
     text-decoration: none;
-
 }
 .cards a button{
     font-size: 20px;
@@ -58,4 +76,9 @@
     color: blue;
     cursor: pointer;
     border: 1px solid gray;
+    
 }
+
+
+
+
