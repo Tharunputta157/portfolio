@@ -20,6 +20,9 @@
 }
 
 @media (max-width: 768px) {
+    .home h1{
+        font-size: 40px;
+    }
     .home img {
       width: 250px;
       height:250px        /* Reduce the size of the profile picture on mobile */
