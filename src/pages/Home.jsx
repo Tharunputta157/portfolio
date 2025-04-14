@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import Profile from '../assets/Profile.jpg'
+import Profile from '../assets/Opt-pic.jpg'
 
 function Home() {
   return (
